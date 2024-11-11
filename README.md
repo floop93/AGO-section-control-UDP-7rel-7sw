@@ -5,6 +5,7 @@ MANUAL mode allows to control section from switches. In this mode AgOpenGPS apli
 Based on arduino nano board with ENC28J60 module (SPI + CS pin -> 10)
 
 default pinout (can be modyfied in #define headers) 
+
     //switch definitions
     #define AUTO_SW A0  //switch for choosing between auto (with section control from AOG) and manual (operate by switches) modes 
     #define S1_SW A1    //section 1 manual switch
