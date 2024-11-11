@@ -14,7 +14,6 @@ default pinout (can be modyfied in #define headers)
     #define S5_SW A5
     #define S6_SW 0
     #define S7_SW 1
-
     //section output definitions
     #define S1_OUT 2    //section 1 output (for relay or other working element) 
     #define S2_OUT 3
